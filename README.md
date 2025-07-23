@@ -1,17 +1,17 @@
-# 🛒 Customer Management App
+# Customer Management App
 
 This Java application is a **Customer Management System** built using **Spring Boot**, offering RESTful endpoints to manage customers, products, and orders. All operations are exposed via a clean API interface and are testable using **Swagger UI**.
 
 ---
 
-## 💻 Project Context
+## Project Context
 
 This project was developed as part of the **Object-Oriented Programming** course at the **Technical University of Moldova (UTM)**.  
 It served as a practical exercise to explore **Spring Boot** and RESTful web services, focusing on implementing core backend features using **JDBC** for database interaction, without using Spring Data JPA.
 
 ---
 
-## 🧠 Features Implemented
+## Features Implemented
 
 - CRUD operations via REST endpoints for:
     - Customers
@@ -25,7 +25,7 @@ It served as a practical exercise to explore **Spring Boot** and RESTful web ser
 
 ---
 
-## ⚙️ How to Run the Project
+## How to Run the Project
 
 1. **Install Java**
 
@@ -75,7 +75,7 @@ It served as a practical exercise to explore **Spring Boot** and RESTful web ser
 
 ---
 
-## 📚 Useful Links
+## Useful Links
 
 - [Spring Boot Reference Guide](https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/)
 - [Swagger UI Docs](https://swagger.io/tools/swagger-ui/)
@@ -83,7 +83,7 @@ It served as a practical exercise to explore **Spring Boot** and RESTful web ser
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 This project was developed by **Constantin Stamate** as part of the **Object-Oriented Programming** course at the **Technical University of Moldova (UTM)**, exploring **Spring Boot** and **JDBC** backend development.
 
