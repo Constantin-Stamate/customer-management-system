@@ -1,4 +1,4 @@
-package md.Management_Client;
+package org.application.customer;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -9,5 +9,4 @@ class ManagementClientApplicationTests {
 	@Test
 	void contextLoads() {
 	}
-
 }

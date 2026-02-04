@@ -1,9 +1,9 @@
-package md.Management_Client.controller;
+package org.application.customer.controller;
 
-import md.Management_Client.entity.Product;
-import md.Management_Client.exceptions.AlreadyExistsException;
-import md.Management_Client.exceptions.NotFoundException;
-import md.Management_Client.repository.ProductRepository;
+import org.application.customer.entity.Product;
+import org.application.customer.exceptions.AlreadyExistsException;
+import org.application.customer.exceptions.NotFoundException;
+import org.application.customer.repository.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -11,7 +11,6 @@ import java.util.List;
 
 @RestController
 public class ProductController {
-
     @Autowired
     private ProductRepository productRepository;
 

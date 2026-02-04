@@ -1,9 +1,9 @@
-package md.Management_Client.controller;
+package org.application.customer.controller;
 
-import md.Management_Client.entity.Customer;
-import md.Management_Client.exceptions.AlreadyExistsException;
-import md.Management_Client.exceptions.NotFoundException;
-import md.Management_Client.repository.CustomerRepository;
+import org.application.customer.entity.Customer;
+import org.application.customer.exceptions.AlreadyExistsException;
+import org.application.customer.exceptions.NotFoundException;
+import org.application.customer.repository.CustomerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

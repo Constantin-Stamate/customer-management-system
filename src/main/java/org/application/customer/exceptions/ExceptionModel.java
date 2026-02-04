@@ -1,4 +1,4 @@
-package md.Management_Client.exceptions;
+package org.application.customer.exceptions;
 
 public class ExceptionModel {
     private String timestamp;

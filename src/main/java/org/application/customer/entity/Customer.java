@@ -1,4 +1,4 @@
-package md.Management_Client.entity;
+package org.application.customer.entity;
 
 public class Customer {
     private String name;

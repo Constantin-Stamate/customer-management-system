@@ -2,14 +2,10 @@
 
 This Java application is a **Customer Management System** built using **Spring Boot**, offering RESTful endpoints to manage customers, products, and orders. All operations are exposed via a clean API interface and are testable using **Swagger UI**.
 
----
-
 ## Project Context
 
 This project was developed as part of the **Object-Oriented Programming** course at the **Technical University of Moldova (UTM)**.  
 It served as a practical exercise to explore **Spring Boot** and RESTful web services, focusing on implementing core backend features using **JDBC** for database interaction, without using Spring Data JPA.
-
----
 
 ## Features Implemented
 
@@ -22,8 +18,6 @@ It served as a practical exercise to explore **Spring Boot** and RESTful web ser
 - Data access implemented using **JDBC**
 - Clear separation between controllers, services, and repositories
 - Basic error handling and validation
-
----
 
 ## How to Run the Project
 
@@ -73,15 +67,11 @@ It served as a practical exercise to explore **Spring Boot** and RESTful web ser
    - `/products`
    - `/orders`
 
----
-
 ## Useful Links
 
 - [Spring Boot Reference Guide](https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/)
 - [Swagger UI Docs](https://swagger.io/tools/swagger-ui/)
 - [JDBC Basics](https://docs.oracle.com/javase/tutorial/jdbc/)
-
----
 
 ## Author
 

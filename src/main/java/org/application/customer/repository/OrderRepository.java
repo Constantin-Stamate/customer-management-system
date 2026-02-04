@@ -1,6 +1,6 @@
-package md.Management_Client.repository;
+package org.application.customer.repository;
 
-import md.Management_Client.entity.Order;
+import org.application.customer.entity.Order;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.support.DefaultLifecycleProcessor;
 import org.springframework.jdbc.core.JdbcTemplate;
@@ -10,7 +10,6 @@ import java.util.List;
 
 @Repository
 public class OrderRepository {
-
     @Autowired
     private JdbcTemplate jdbcTemplate;
     private DefaultLifecycleProcessor lifecycleProcessor;

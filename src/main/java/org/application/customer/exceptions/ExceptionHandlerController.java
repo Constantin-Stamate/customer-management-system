@@ -1,4 +1,4 @@
-package md.Management_Client.exceptions;
+package org.application.customer.exceptions;
 
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.http.HttpStatus;
@@ -12,10 +12,8 @@ import java.time.Instant;
 
 @RestControllerAdvice
 public class ExceptionHandlerController {
-
     @ExceptionHandler(NotFoundException.class)
     public ResponseEntity<ExceptionModel> notFoundEntity(NotFoundException e, HttpServletRequest request) {
-
         ExceptionModel exceptionModel = new ExceptionModel();
         exceptionModel.setTimestamp(Instant.now().toString());
         exceptionModel.setError("Entity not found");

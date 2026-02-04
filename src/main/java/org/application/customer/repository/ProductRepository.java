@@ -1,6 +1,6 @@
-package md.Management_Client.repository;
+package org.application.customer.repository;
 
-import md.Management_Client.entity.Product;
+import org.application.customer.entity.Product;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
@@ -9,7 +9,6 @@ import java.util.List;
 
 @Repository
 public class ProductRepository {
-
     @Autowired
     private JdbcTemplate jdbcTemplate;
 
